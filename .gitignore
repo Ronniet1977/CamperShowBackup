@@ -10,5 +10,6 @@ Pods/
 *.csv
 *.plist
 .env
+CamperShowApp/Secrets.swift
 *.xcassets/*.DS_Store
 

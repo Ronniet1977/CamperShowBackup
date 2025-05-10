@@ -252,7 +252,6 @@ class CamperViewModel: ObservableObject {
     func loadCampersFromCSV(url: URL) {
         do {
             let csvText = try String(contentsOf: url, encoding: .utf8)
-            print("📥 CSV CONTENT:\n\(csvText)")
             let lines = csvText.components(separatedBy: .newlines).dropFirst()
 
             var loadedCampers: [Camper] = []

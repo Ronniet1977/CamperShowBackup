@@ -3,9 +3,10 @@ import Foundation
 class DropboxUploader {
     static let shared = DropboxUploader()
     
-    private let refreshToken = "OzJvhNOXLRsAAAAAAAAAAa_ux4-sAyxujqutSZ8c4ikksftmFYDAI28efTJ6wI1I"
-    private let appKey = "h30yr3o0n2wy4ms"
-    private let appSecret = "fq0p9zejwpw2nxg"
+    private let refreshToken = Secrets.dropboxRefreshToken
+    private let appKey = Secrets.dropboxAppKey
+    private let appSecret = Secrets.dropboxAppSecret
+
     
     private var accessToken: String?
     

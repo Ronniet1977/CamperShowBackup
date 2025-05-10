@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		87EF5EF52DCFDCB500ED6F1B /* Secrets.example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EF5EF32DCFDCA900ED6F1B /* Secrets.example.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		87EF5E692DCE7CD000ED6F1B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		87EF5E592DCE7CCF00ED6F1B /* CamperShowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamperShowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87EF5E682DCE7CD000ED6F1B /* CamperShowAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamperShowAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87EF5E722DCE7CD000ED6F1B /* CamperShowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamperShowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87EF5EF32DCFDCA900ED6F1B /* Secrets.example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.example.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		87EF5E502DCE7CCF00ED6F1B = {
 			isa = PBXGroup;
 			children = (
+				87EF5EF32DCFDCA900ED6F1B /* Secrets.example.swift */,
 				87EF5E5B2DCE7CCF00ED6F1B /* CamperShowApp */,
 				87EF5E6B2DCE7CD000ED6F1B /* CamperShowAppTests */,
 				87EF5E752DCE7CD000ED6F1B /* CamperShowAppUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87EF5EF52DCFDCB500ED6F1B /* Secrets.example.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
