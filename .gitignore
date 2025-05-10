@@ -1,15 +1,31 @@
+# macOS system files
 .DS_Store
+
+# Xcode build data
 build/
 DerivedData/
+
+# Xcode project user data
 *.xcworkspace
 *.xcuserstate
 *.xcodeproj/project.xcworkspace/
 *.xcodeproj/xcuserdata/
+
+# CocoaPods
 Pods/
+
+# Log files
 *.log
+
+# CSVs and generated files
 *.csv
+
+# Config files
 *.plist
 .env
-CamperShowApp/Secrets.swift
-*.xcassets/*.DS_Store
 
+# Secrets — keep out of GitHub!
+CamperShowApp/Secrets.swift
+
+# Asset folder junk
+*.xcassets/*.DS_Store
