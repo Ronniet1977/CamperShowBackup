@@ -1,0 +1,5 @@
+Year,Make,Model,ModelName,VIN,Location,AssignedTo,Status1,Date1,Status2,Date2,Type,IsSelected
+2022,Keystone,Cougar,29BHS,12345F,Manheim,,,Picked Up,2025-04-20,Delivered,2025-04-21,FW,true
+2021,Jayco,Jay Flight,SLX 264BH,67890,Greensboro,Mike,Picked Up,2025-04-20,,,BP,false
+2023,Forest River,Rockwood,Mini Lite,54321,Denver,,,Picked Up,2025-04-19,,,Park,true
+2019,Winnebago,Minnie Winnie,25B,99887,Charlotte,,,Picked Up,2025-04-18,,,Drive,true
