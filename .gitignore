@@ -1,0 +1,14 @@
+.DS_Store
+build/
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+Pods/
+*.log
+*.csv
+*.plist
+.env
+*.xcassets/*.DS_Store
+
